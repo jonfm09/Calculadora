@@ -1,0 +1,27 @@
+/** Creando las variables para el dise estilos */
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+
+
+$colorBlanco: white;
+$colorAzul: #091037;
+$colorCeleste: #1BB6B9;
+
+$fuente: 'Shantell Sans', cursive;
+
+/** 
+    mix: la forma de como podemos reutilizar componentes, funcion
+
+*/
+
+@mixin buttonStyle($colorLetra, $colorFondo){
+
+    width: 50px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: $colorLetra ;
+    background-color: $colorFondo ;
+
+}

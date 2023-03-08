@@ -1,0 +1,56 @@
+/** Importando el archivo de las variables*/ /** Creando las variables para el dise estilos */
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap");
+/** 
+    mix: la forma de como podemos reutilizar componentes, funcion
+
+*/
+body {
+  background-color: darksalmon;
+}
+
+h1 {
+  font-family: "Shantell Sans", cursive;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.contenedor {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+  background-color: #091037;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.button-operador {
+  /** Incluyendo el mixin del buttonStyle */
+  width: 50px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #1BB6B9;
+}
+
+.button-numero {
+  width: 50px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+}
+
+#texto {
+  width: 200px;
+  height: 25px;
+  background-color: #091037;
+}/*# sourceMappingURL=style.css.map */
